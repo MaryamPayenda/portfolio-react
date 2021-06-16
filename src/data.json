@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "img": "./img/instagram.png",
+    "title": "Using React",
+    "project": "Instagram Page clone"
+  },
+  {
+    "id": 1,
+    "img": "./img/instagram.png",
+    "title": "Using React",
+    "project": "Instagram Page clone"
+  },
+  {
+    "id": 3,
+    "img": "./img/instagram.png",
+    "title": "Using React",
+    "project": "Instagram Page clone"
+  },
+  {
+    "id": 4,
+    "img": "./img/instagram.png",
+    "title": "Using React",
+    "project": "Instagram Page clone"
+  }
+]

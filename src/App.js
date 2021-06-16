@@ -6,7 +6,7 @@ import Project from "./components/Projects/Project";
 import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
+import Data from "./data.json";
 import Footer from "./components/Footer/Footer";
 function App() {
   return (
@@ -24,8 +24,6 @@ function App() {
           </Route>
         </Switch>
       </Router>
-
-      {/* <Footer /> */}
     </React.Fragment>
   );
 }

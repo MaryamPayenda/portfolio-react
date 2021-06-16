@@ -1,7 +1,8 @@
 import React from "react";
 import classes from "./About.module.scss";
 import { FaCode, FaSave, FaHandshake } from "react-icons/fa";
-import avatar from "./img/avatar.png";
+import avatar from "../../img/avatar.png";
+
 const About = () => {
   return (
     <div className={classes.MainContainer}>
@@ -20,11 +21,7 @@ const About = () => {
 
         <div className={classes.Info}>
           <div className={classes.Image}>
-            {/* <img src={avatar} alt="Avatar" /> */}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-            quibusdam veritatis quas temporibus, non illum ipsum exercitationem
-            deleniti eligendi ratione ducimus est mollitia facilis repellendus
-            laudantium vero quo molestiae fugit.
+            <img src={avatar} alt="Avatar" />
           </div>
           <div className={classes.Text}>
             <h2>I'm Maryam Payenda</h2>

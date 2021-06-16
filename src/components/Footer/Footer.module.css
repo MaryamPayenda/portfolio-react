@@ -5,9 +5,8 @@
   display: flex;
   justify-content: flex-end;
   align-items: stretch;
-  background-color: red;
+  background-color: #161515;
   color: white;
-  margin-right: 20px;
 }
 .Media li {
   list-style-type: none;
@@ -17,6 +16,7 @@
   border-radius: 10%;
   transition: 0.5s;
   margin-left: 20px;
+  margin-right: 20px;
 }
 .Media .fa {
   /* display: flex;

@@ -49,9 +49,15 @@
     // align-items: center;
     .Image {
       padding: 1rem;
+      width: 28vw;
+      img {
+        margin-top: 30px;
+        width: 25vw;
+      }
     }
     .Text {
       padding: 1rem;
+      width: 28vw;
     }
     h2 {
       margin-top: 2rem;
