@@ -1,5 +1,5 @@
 //import { FaHome, FaUser, FaThLarge, FaBriefcase } from "react-icons/fa";
-import classes from "./NavBar.module.css";
+import classes from "./NavBar.module.scss";
 import MobileNavigation from "./MobileNavigation";
 import Navigation from "./Navigation";
 import NavLinks from "./NavLinks";

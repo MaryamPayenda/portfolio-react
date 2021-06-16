@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./About.module.css";
+import classes from "./About.module.scss";
 import { FaHome } from "react-icons/fa";
 const About = () => {
   return (
