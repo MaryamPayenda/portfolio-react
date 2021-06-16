@@ -1,0 +1,30 @@
+/* social media */
+body {
+  background-color: black;
+}
+.Footer {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  background: black;
+  color: white;
+  margin-right: 20px;
+}
+.Media li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 10%;
+  transition: 0.5s;
+  margin-left: 20px;
+}
+.Media .fa {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 1.5rem;
+  height: 2rem;
+  color: gray;
+}

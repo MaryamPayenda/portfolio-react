@@ -1,0 +1,81 @@
+.Home {
+  background-color: blue;
+
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: row-reverse;
+  background-color: black;
+  height: 90vh;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.Home .Container .TextTitle {
+  font-size: 27px;
+  margin-top: 18rem;
+}
+
+.Home .Container .TextName {
+  font-size: 60px;
+  font-weight: 600;
+  animation: TextName 3s 1;
+  letter-spacing: 8px;
+  margin: 20px;
+}
+
+.Home .Container .TextField {
+  font-size: 28px;
+  color: white;
+  font-family: sans-serif;
+  float: left;
+  width: 10rem;
+  font-weight: bold;
+  white-space: nowrap;
+  animation: typing 5s steps(22) 1s infinite alternate;
+  overflow: hidden;
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+
+.Home .Container .TextField span {
+  color: purple;
+  font-weight: bold;
+}
+
+.Home .Container .Crow {
+  float: left;
+  color: white;
+  font-size: 30px;
+  animation: crow 0.5s linear 0s infinite;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+/* @keyframes TextName {
+  0% {
+    color: black;
+  }
+  30% {
+    letter-spacing: 25px;
+  }
+  85% {
+    letter-spacing: 8px;
+  }
+} */
+@keyframes crow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes typing {
+  from {
+    width: 0ch;
+  }
+  to {
+    width: 27.9ch;
+  }
+}
