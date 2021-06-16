@@ -7,22 +7,22 @@ const NavLinks = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/home">Home</Link>
           </li>
 
           <li>
-            <Link to="/#about">About</Link>
+            <Link to="/about">About</Link>
           </li>
 
           <li>
-            <Link to="/#project">Projects</Link>
+            <Link to="/project">Projects</Link>
           </li>
 
           <li>
-            <Link to="/#skills">Skills</Link>
+            <Link to="/skills">Skills</Link>
           </li>
           <li>
-            <Link to="/#contact">Contact</Link>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </nav>

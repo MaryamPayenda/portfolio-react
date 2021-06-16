@@ -1,13 +1,11 @@
 /* social media */
-body {
-  background-color: black;
-}
+
 .Footer {
   flex-wrap: wrap;
   display: flex;
   justify-content: flex-end;
   align-items: stretch;
-  background: black;
+  background-color: red;
   color: white;
   margin-right: 20px;
 }

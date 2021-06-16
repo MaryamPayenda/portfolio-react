@@ -14,17 +14,18 @@ function App() {
       <Router>
         <NavBar />
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/home" exact component={Home} />
           <Route path="/about" component={About} />
           <Route path="/project" component={Project} />
           <Route path="/skills" component={Skills} />
           <Route path="/contact" component={Contact} />
-          <Route path={() => "/main" || "/anything"}></Route>
-          <Home />
+          <Route path={() => "/main" || "/anything"}>
+            <Home />
+          </Route>
         </Switch>
       </Router>
 
-      <Footer />
+      {/* <Footer /> */}
     </React.Fragment>
   );
 }

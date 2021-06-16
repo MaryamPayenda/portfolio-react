@@ -1,0 +1,100 @@
+.MainContainer {
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  margin-top: 6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 80vh;
+  width: 57vw;
+  color: white;
+  .Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 17px;
+
+    h1 {
+      font-weight: bold;
+      font-family: sans-serif;
+      text-align: center;
+      font-size: 3rem;
+      border-bottom: 1px solid gray;
+      width: 20rem;
+      border-radius: 20px;
+      margin-bottom: 2rem;
+    }
+    span {
+      color: purple;
+    }
+  }
+  .Info {
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    height: 38rem;
+    justify-content: space-between;
+
+    // align-items: center;
+    .Image {
+      padding: 1rem;
+    }
+    .Text {
+      padding: 1rem;
+    }
+    h2 {
+      margin-top: 2rem;
+    }
+    p {
+      margin-top: 1rem;
+    }
+    .MoreInfo {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top: 1rem;
+    }
+    .icon {
+      border: purple 1px solid;
+      background: black;
+      color: purple;
+      font-size: 3rem;
+      padding: 10px;
+      border-radius: 10px;
+    }
+    span {
+      color: white;
+      font-size: 0.9rem;
+      div {
+        color: gray;
+      }
+    }
+  }
+  .Button {
+    background-color: #840b8f;
+    margin-top: 3rem;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 30px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    &:hover {
+      border: 1px solid #840b8f;
+      background-color: rgb(34, 33, 33);
+    }
+  }
+}
