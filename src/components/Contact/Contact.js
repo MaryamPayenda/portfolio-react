@@ -47,9 +47,46 @@ const Contact = () => {
               </div>
             </div>
             <div className={classes.FormInfo}>
-              <div>
-                <button className={classes.Button}>Download My CV</button>
-              </div>
+              <form>
+                <div className={classes.PartOne}>
+                  <span>
+                    <label htmlFor="fullName">Full Name</label>
+                    <br />
+                    <input type="text" id="fullName" placeholder="Full Name" />
+                  </span>
+                  <span>
+                    <label htmlFor="email"> Email</label> <br />
+                    <input
+                      type="email"
+                      name=""
+                      id="email"
+                      placeholder="Enter Your Email"
+                    />
+                  </span>
+                </div>
+                <div className={classes.PartTwo}>
+                  <label htmlFor="subject">Subject</label>
+                  <br />
+
+                  <input type="text" id="subject" placeholder="Subject" />
+                </div>
+
+                <div className={classes.PartThree}>
+                  <label htmlFor="feedback">How can I help You? </label>
+                  <br />
+                  <textarea
+                    name=""
+                    id="feedback"
+                    cols="30"
+                    rows="10"
+                    placeholder="Hello There!"
+                  ></textarea>
+                </div>
+                <div className={classes.PartFour}>
+                  <input type="submit" value="Submit" />
+                </div>
+              </form>
+              <div></div>
             </div>
           </div>
         </div>

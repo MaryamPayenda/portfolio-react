@@ -89,4 +89,75 @@
   background-color: black;
   border-radius: 10px;
   width: 34vw;
+  padding: 2rem;
+  .PartOne {
+    display: flex;
+    justify-content: space-between;
+    label {
+      font-size: 15px;
+    }
+    input {
+      width: 18rem;
+      background: transparent;
+      border: 1px #353535 solid;
+      border-radius: 5px;
+      height: 2rem;
+      margin-top: 5px;
+      &::placeholder {
+        padding: 10px;
+      }
+    }
+  }
+  .PartTwo {
+    margin-top: 20px;
+    label {
+      font-size: 15px;
+    }
+    input {
+      background: transparent;
+      border: 1px #353535 solid;
+      border-radius: 5px;
+      height: 2rem;
+      width: 37rem;
+      &::placeholder {
+        padding: 10px;
+      }
+    }
+  }
+  .PartThree {
+    margin-top: 20px;
+    label {
+      font-size: 15px;
+    }
+    textarea {
+      background: transparent;
+      border: 1px #353535 solid;
+      border-radius: 5px;
+      height: 12rem;
+      width: 37rem;
+      &::placeholder {
+        padding: 10px;
+      }
+    }
+  }
+  .PartFour {
+    margin-top: 20px;
+    input {
+      color: white;
+      background-color: purple;
+      height: 45px;
+      line-height: 45px;
+      padding: 0 30px;
+      font-size: 13px;
+      text-transform: uppercase;
+      font-weight: 600;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      &:hover {
+        background-color: #222121;
+        border: purple 1px solid;
+      }
+    }
+  }
 }
