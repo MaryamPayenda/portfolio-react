@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import NavBar from "./components/nav/NavBar";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Project from "./components/Projects/Project";
 import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
+import Loading from "./components/Loading";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Data from "./data.json";
-import Footer from "./components/Footer/Footer";
 function App() {
+  // loading
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
+  }, []);
+  if (loading) return <Loading />;
+
   return (
     <React.Fragment>
       <Router>

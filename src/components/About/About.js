@@ -2,8 +2,13 @@ import React from "react";
 import classes from "./About.module.scss";
 import { FaCode, FaSave, FaHandshake } from "react-icons/fa";
 import avatar from "../../img/avatar.png";
+import DownloadLink from "react-download-link";
+// import Pdf from "../../img/Letter.docx";
 
 const About = () => {
+  // const openResume = () => {
+  //   window.open({ Pdf });
+  // };
   return (
     <div className={classes.MainContainer}>
       <div className={classes.Container}>
@@ -50,7 +55,15 @@ const About = () => {
               </span>
             </div>
             <div>
-              <button className={classes.Button}>Download My CV</button>
+              <DownloadLink
+                label="Download"
+                className={classes.Button}
+                filename="./img/Letter.docx"
+                exportFile={() => "You will have my file now …"}
+              />
+              {/* <button className={classes.Button} onClick={openResume}>
+                Download My CV
+              </button> */}
             </div>
           </div>
         </div>
