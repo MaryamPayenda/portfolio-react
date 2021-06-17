@@ -55,12 +55,17 @@ const About = () => {
               </span>
             </div>
             <div>
-              <DownloadLink
+              <a href="./img/Letter.docx" className={classes.Button} download>
+                Download My CV
+              </a>
+
+              {/* <DownloadLink
                 label="Download"
                 className={classes.Button}
                 filename="./img/Letter.docx"
                 exportFile={() => "You will have my file now …"}
-              />
+              /> */}
+
               {/* <button className={classes.Button} onClick={openResume}>
                 Download My CV
               </button> */}

@@ -1,9 +1,9 @@
 [
   {
     "id": 0,
-    "img": "./img/instagram.png",
+    "img": "./img/IMDb.png",
     "title": "Using React",
-    "project": "Instagram Page clone"
+    "project": "IMDb  clone"
   },
   {
     "id": 1,
@@ -13,15 +13,15 @@
   },
   {
     "id": 3,
-    "img": "./img/instagram.png",
+    "img": "./img/to-do.png",
     "title": "Using React",
-    "project": "Instagram Page clone"
+    "project": "Simple todo"
   },
   {
     "id": 4,
-    "img": "./img/instagram.png",
-    "title": "Using React",
-    "project": "Instagram Page clone"
+    "img": "./img/youtube-clone-sass.png",
+    "title": "Using Sass",
+    "project": "Youtube  clone"
   },
   {
     "id": 5,
