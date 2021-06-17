@@ -1,9 +1,9 @@
 .MainContainer {
   display: flex;
   justify-content: center;
-
+  height: 90vh;
+  margin: 0;
   align-items: center;
-  margin-top: 6rem;
   font-family: Arial, Helvetica, sans-serif;
 }
 .Container {
@@ -46,7 +46,6 @@
     height: 38rem;
     justify-content: space-between;
 
-    // align-items: center;
     .Image {
       padding: 1rem;
       width: 28vw;

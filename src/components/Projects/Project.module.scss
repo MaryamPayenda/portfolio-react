@@ -1,64 +1,80 @@
-.MainContainer {
+// Project gallery
+.Main {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+.Gallery {
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow: hidden;
+  width: 960px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Photo {
+  width: 280px;
+  height: 260px;
+  margin: 10px;
+  border-radius: 3px;
+  display: block;
+  width: 100%;
+}
+
+//Photo overlay
+.Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  opacity: 0;
+  transition: 1s;
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+}
+.Image {
+  position: relative;
+  width: 280px;
+  height: 260px;
+  margin: 10px;
+}
+
+.Header {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  border: 1px green solid;
-
-  margin-top: 6rem;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-left: 6rem;
-  img {
-    height: 3rem;
-    width: 3rem;
-  }
-}
-.Container {
-  border: 1px green solid;
-  height: 80vh;
-  width: 40vw;
-
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   flex-direction: column;
-  //   height: 80vh;
-  //   width: 40vw;
-  color: white;
-  .Header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 17px;
+  margin-top: 6rem;
+
+  h2 {
+    font-weight: bold;
+    font-family: sans-serif;
     text-align: center;
-    font-size: 17px;
-
-    h1 {
-      font-weight: bold;
-      font-family: sans-serif;
-      text-align: center;
-      font-size: 3rem;
-      border-bottom: 1px solid gray;
-      width: 20rem;
-      border-radius: 20px;
-      margin-bottom: 2rem;
-    }
-    span {
-      color: purple;
-    }
-  }
-  .Info {
-    background-color: black;
+    font-size: 3rem;
+    border-bottom: 1px solid gray;
+    width: 20rem;
     border-radius: 20px;
-    padding: 10px;
-    display: flex;
-    height: 38rem;
-    justify-content: space-between;
-
-    // align-items: center;
-    .Image {
-      padding: 1rem;
-    }
+    margin-bottom: 2rem;
+  }
+  span {
+    color: purple;
+  }
+  p {
+    width: 700px;
   }
 }

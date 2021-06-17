@@ -6,9 +6,13 @@ const Project = ({}) => {
   let galeryData;
   if (Data) {
     galeryData = Data.map((obj) => (
-      <li key={obj.id} className={classes.MainContainer}>
-        <img src={`${process.env.PUBLIC_URL}/${obj.img}`} alt={obj.title} />
-        <div>
+      <li key={obj.id} className={classes.Image}>
+        <img
+          src={`${process.env.PUBLIC_URL}/${obj.img}`}
+          className={classes.Photo}
+          alt={obj.title}
+        />
+        <div className={classes.Overlay}>
           <div>{obj.project}</div>
 
           <p>{obj.title} </p>
@@ -17,33 +21,22 @@ const Project = ({}) => {
     ));
   } else galeryData = <div />;
   return (
-    <React.Fragment>
-      {/* <div className={classes.MainContainer}> */}
-      {/* <div className={classes.Container}>
-        <div className={classes.Header}>
-          <h1>
-            <span> My</span> Projects
-          </h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsam
-            fugiat consectetur eum culpa ipsa, exercitationem vel, eius cumque
-            rem dignissimos quidem officia. Qui, non quae sapiente sit officia
-            itaque!
-          </p>
-        </div>
-
-        <div className={classes.Info}>
-          <div className={classes.Image}>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
-              omnis?
-            </p>
-          </div>
-        </div>
-      </div> */}
-      <ul className={classes.Container}>{galeryData}</ul>
-      {/* //</div> */}
-    </React.Fragment>
+    <div>
+      <div className={classes.Header}>
+        <h2>
+          <span> My </span>work
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
+          deleniti dolor quis nostrum amet error ab tempora! Corporis facere
+          quasi eveniet consectetur et laborum nostrum. Odio laudantium
+          blanditiis quaerat perferendis?
+        </p>
+      </div>
+      <div className={classes.Main}>
+        <ul className={classes.Gallery}>{galeryData}</ul>
+      </div>
+    </div>
   );
 };
 

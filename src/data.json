@@ -22,5 +22,17 @@
     "img": "./img/instagram.png",
     "title": "Using React",
     "project": "Instagram Page clone"
+  },
+  {
+    "id": 5,
+    "img": "./img/instagram.png",
+    "title": "Using React",
+    "project": "Instagram Page clone"
+  },
+  {
+    "id": 1,
+    "img": "./img/instagram.png",
+    "title": "Using React",
+    "project": "Instagram Page clone"
   }
 ]
