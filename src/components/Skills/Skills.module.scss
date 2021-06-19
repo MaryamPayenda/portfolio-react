@@ -93,7 +93,6 @@
 }
 
 .Info {
-  // border: 1px red solid;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -107,15 +106,24 @@
     width: 24vw;
     height: 55vh;
     h2 {
-      margin-top: 3rem;
+      margin-top: 2rem;
       text-align: center;
       font-weight: bold;
     }
     div {
-      margin-top: 1rem;
+      margin-top: 10px;
 
       font-size: 20px;
       margin-left: 2rem;
+    }
+    img {
+      height: 2.5rem;
+      width: 2.5rem;
+      border-radius: 50px;
+      vertical-align: middle;
+    }
+    span {
+      margin-left: 20px;
     }
   }
 }

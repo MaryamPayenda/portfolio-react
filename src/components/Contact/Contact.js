@@ -12,10 +12,8 @@ const Contact = () => {
               CONTACT <span>ME</span>
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-              ipsam fugiat consectetur eum culpa ipsa, exercitationem vel, eius
-              cumque rem dignissimos quidem officia. Qui, non quae sapiente sit
-              officia itaque!
+              If you want my work, why not call on me for your next project? I
+              could send you a quotation and more details about my workflow.
             </p>
           </div>
           <div className={classes.Info}>

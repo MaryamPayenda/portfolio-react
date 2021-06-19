@@ -36,6 +36,9 @@
     span {
       color: purple;
     }
+    p {
+      font-size: 20px;
+    }
   }
   .Info {
     background-color: black;
@@ -62,6 +65,7 @@
     }
     p {
       margin-top: 1rem;
+      line-height: 23px;
     }
     .MoreInfo {
       display: flex;

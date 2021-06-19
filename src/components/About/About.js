@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./About.module.scss";
 import { FaCode, FaHandshake } from "react-icons/fa";
-import avatar from "../../img/avatar.png";
+import avatar from "../../img1/avatar.png";
 //import DownloadLink from "react-download-link";
 // import Pdf from "../../img/Letter.docx";
 
@@ -17,10 +17,8 @@ const About = () => {
             ABOUT <span>ME</span>
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni ipsam
-            fugiat consectetur eum culpa ipsa, exercitationem vel, eius cumque
-            rem dignissimos quidem officia. Qui, non quae sapiente sit officia
-            itaque!
+            I design and develop website for customers of all sizes ,
+            specializing in creating modern websites.
           </p>
         </div>
 
@@ -30,16 +28,18 @@ const About = () => {
           </div>
           <div className={classes.Text}>
             <h2>I'm Maryam Payenda</h2>
-            <p>I'm a Web developer based in Leipzig </p>
+            <p>I'm a Web developer based in Leipzig. </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-              magni numquam consectetur cumque, a inventore sed similique quis
-              esse modi porro quia qui excepturi tenetur, nulla illum ut
-              voluptatibus eum.
+              I grew up thinking I would be an astronaut,but I developed a
+              passion for computers. after high school graduation I joined
+              Computer Science Faculty in Afghanistan. During and after uni I
+              worked in exciting positions for ISAF and UNDP in my hometown
+              Afghanistan. I love the logic & structure of coding, and problem
+              solving is my passion .
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit,
-              omnis?
+              when I'm not playing with pixels you can find me playing with
+              animals!
             </p>
             <div className={classes.MoreInfo}>
               <FaHandshake className={classes.icon} />

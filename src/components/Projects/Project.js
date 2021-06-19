@@ -27,10 +27,9 @@ const Project = ({}) => {
           <span> My </span>work
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
-          deleniti dolor quis nostrum amet error ab tempora! Corporis facere
-          quasi eveniet consectetur et laborum nostrum. Odio laudantium
-          blanditiis quaerat perferendis?
+          Here you can find some of my project during DCI web development
+          course. These projects are mainly desinged with
+          HTML,CSS,SASS,Javascript,React.js and some other libraries.
         </p>
       </div>
       <div className={classes.Main}>
