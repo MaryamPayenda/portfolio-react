@@ -2,7 +2,7 @@
 import classes from "./NavBar.module.scss";
 import MobileNavigation from "./MobileNavigation";
 import Navigation from "./Navigation";
-import NavLinks from "./NavLinks";
+
 const NavBar = () => {
   return (
     <div className={classes.NavBar}>
@@ -11,9 +11,8 @@ const NavBar = () => {
           m<span>P.</span>
         </a>
       </div>
-      <NavLinks />
-      {/* <Navigation />
-      <MobileNavigation /> */}
+      <Navigation />
+      <MobileNavigation />
     </div>
   );
 };

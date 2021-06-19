@@ -1,3 +1,108 @@
-div {
+.MainContainer {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  margin: 0;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 80vh;
+  width: 57vw;
   color: white;
+  .Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 17px;
+
+    h1 {
+      font-weight: bold;
+      font-family: sans-serif;
+      text-align: center;
+      font-size: 3rem;
+      border-bottom: 1px solid gray;
+      width: 23rem;
+      border-radius: 20px;
+      margin-bottom: 2rem;
+    }
+    span {
+      color: purple;
+    }
+  }
+}
+
+.Info {
+  border-radius: 20px;
+  display: flex;
+  width: 60vw;
+  height: 28rem;
+  justify-content: space-between;
+}
+.MainContainer {
+  display: flex;
+  justify-content: center;
+  height: 90vh;
+  margin: 0;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+}
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: 80vh;
+  width: 57vw;
+  color: white;
+  .Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 17px;
+
+    h1 {
+      font-weight: bold;
+      font-family: sans-serif;
+      text-align: center;
+      font-size: 3rem;
+      border-bottom: 1px solid gray;
+      width: 23rem;
+      border-radius: 20px;
+      margin-bottom: 2rem;
+    }
+    span {
+      color: purple;
+    }
+  }
+}
+
+.Info {
+  border: 1px red solid;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  width: 80vw;
+  height: 60vh;
+  justify-content: space-around;
+
+  .Technologies {
+    border: blue 1px solid;
+    width: 24vw;
+    height: 55vh;
+  }
 }

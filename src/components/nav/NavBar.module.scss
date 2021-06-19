@@ -48,3 +48,85 @@
 .NavBar a:hover {
   border-bottom: 1px white solid;
 }
+
+.NavBar {
+  .MobileNavigation {
+    display: none;
+  }
+}
+// ipad
+@media (max-width: 768px) {
+  .NavBar {
+    &:hover {
+      color: #8c1cd1;
+    }
+
+    .Navigation {
+      display: none;
+    }
+    .MobileNavigation {
+      display: flex;
+      align-items: center;
+    }
+    .Humberger {
+      position: absolute;
+      right: 5%;
+      cursor: pointer;
+    }
+    nav {
+      ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        width: 100%;
+        background-color: #181818;
+        border-top: 2px solid purple;
+        margin-right: 0;
+        padding: 0;
+        li {
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}
+
+// mobile view
+
+@media (max-width: 414px) {
+  .NavBar {
+    opacity: 1;
+    .Navigation {
+      display: none;
+    }
+    .MobileNavigation {
+      display: flex;
+      align-items: center;
+    }
+    .Humberger {
+      position: absolute;
+      right: 5%;
+      cursor: pointer;
+    }
+    nav {
+      ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        width: 100%;
+        background-color: #181818;
+        border-top: 2px solid purple;
+        margin-right: 0;
+        padding: 0;
+
+        li {
+          padding-left: 20px;
+        }
+      }
+    }
+  }
+}

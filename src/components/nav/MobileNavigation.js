@@ -1,10 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import NavLinks from "./NavLinks";
+import classes from "./NavBar.module.scss";
+import { CgMenuRound } from "react-icons/cg";
+import { CgCloseO } from "react-icons/cg";
 
 const MobileNavigation = () => {
+  const [open, setOpen] = useState(false);
+
+  const hamburgerIcon = (
+    <CgMenuRound
+      className={classes.Humberger}
+      size="40px"
+      color="white"
+      onClick={() => setOpen(!open)}
+    />
+  );
+
+  const closeIcon = (
+    <CgCloseO
+      className={classes.Humberger}
+      size="40px"
+      color="white"
+      onClick={() => setOpen(!open)}
+    />
+  );
+
   return (
-    <nav>
-      <NavLinks />
+    <nav className={classes.MobileNavigation}>
+      {open ? closeIcon : hamburgerIcon}
+      {open && <NavLinks />}
     </nav>
   );
 };

@@ -1,8 +1,8 @@
 import React from "react";
 import classes from "./About.module.scss";
-import { FaCode, FaSave, FaHandshake } from "react-icons/fa";
+import { FaCode, FaHandshake } from "react-icons/fa";
 import avatar from "../../img/avatar.png";
-import DownloadLink from "react-download-link";
+//import DownloadLink from "react-download-link";
 // import Pdf from "../../img/Letter.docx";
 
 const About = () => {

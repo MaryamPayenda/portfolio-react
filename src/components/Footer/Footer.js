@@ -1,14 +1,6 @@
 import React from "react";
 import classes from "./Footer.module.scss";
-import {
-  FaHome,
-  FaUser,
-  FaThLarge,
-  FaBriefcase,
-  FaGithub,
-  FaLinkedinIn,
-  FaInstagram,
-} from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
