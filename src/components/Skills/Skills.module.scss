@@ -73,7 +73,8 @@
     flex-direction: column;
     margin-bottom: 2rem;
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
+    width: 45rem;
 
     h1 {
       font-weight: bold;
@@ -92,7 +93,7 @@
 }
 
 .Info {
-  border: 1px red solid;
+  // border: 1px red solid;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -101,8 +102,20 @@
   justify-content: space-around;
 
   .Technologies {
-    border: blue 1px solid;
+    background-color: black;
+    border-radius: 5px;
     width: 24vw;
     height: 55vh;
+    h2 {
+      margin-top: 3rem;
+      text-align: center;
+      font-weight: bold;
+    }
+    div {
+      margin-top: 1rem;
+
+      font-size: 20px;
+      margin-left: 2rem;
+    }
   }
 }

@@ -10,22 +10,27 @@ const Skills = () => {
               <span>MY</span> SKILLS
             </h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-              ipsam fugiat consectetur eum culpa ipsa, exercitationem vel, eius
-              cumque rem dignissimos quidem officia. Qui, non quae sapiente sit
-              officia itaque!
+              I am life long life lerner and enjoy learning new stuff! below are
+              some programming languages,toolkits,frameworks and libraries that
+              I can work with.
             </p>
           </div>
           <div className={classes.Info}>
             <div className={classes.Technologies}>
               <h2>Operating Systems</h2>
-              <img src="" alt="hi" />
-              <div>Windows</div>
-              <div>Linux/ Ubuntu</div>
+
+              <div>
+                {/* <img src="" alt="hi" /> */}
+                Windows
+              </div>
+              <div>
+                {/* <img src="../../img/windows.png" alt="hi" />  */}
+                Linux/ Ubuntu
+              </div>
             </div>
             <div className={classes.Technologies}>
               <h2>Programming</h2>
-              <h3>Languages</h3>
+
               <div>html5</div>
               <div>Javasript</div>
               <div>CSS</div>
@@ -42,10 +47,8 @@ const Skills = () => {
 
               <div>M.S Office</div>
               <div>M.S Code</div>
-              <div>css</div>
               <div>Github</div>
-              <div>Git</div>
-              <div>Git</div>
+              <div>Slack</div>
               <div>Git</div>
               <div>Git</div>
             </div>
