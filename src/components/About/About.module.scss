@@ -110,3 +110,112 @@
     }
   }
 }
+// ipad view
+@media (max-width: 768px) {
+  .MainContainer {
+    height: 120vh;
+    align-items: flex-start;
+  }
+
+  .Container {
+    justify-content: start;
+    align-items: center;
+    width: 70vw;
+    .Header {
+      span {
+        color: purple;
+      }
+      p {
+        font-size: 20px;
+      }
+    }
+    .Info {
+      border-radius: 10px;
+      align-items: center;
+      width: 90vw;
+      flex-direction: column;
+      height: 90vh;
+
+      .Image {
+        width: 50vw;
+        img {
+          margin-top: 10px;
+          width: 40vw;
+          border-radius: 50%;
+        }
+      }
+      .Text {
+        padding: 1rem;
+        width: 85vw;
+      }
+      h2 {
+        margin-top: 1rem;
+      }
+      p {
+        text-align: justify;
+        margin-top: 1rem;
+      }
+
+      .MoreInfo {
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+// mobile view
+@media (max-width: 414px) {
+  .MainContainer {
+    height: 100vh;
+  }
+  .Container {
+    width: 85vw;
+    height: 60vh;
+    .Header {
+      h1 {
+        font-size: 1.9rem;
+        width: 12rem;
+        border-radius: 1px;
+        margin-top: 1rem;
+      }
+      p {
+        font-size: 17px;
+        margin: 0;
+      }
+    }
+    .Info {
+      display: flex;
+      background-color: transparent;
+      border-radius: 10px;
+      align-items: center;
+      height: 70vh;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 1px;
+      .Image {
+        margin: 0;
+        img {
+          margin-top: 1px;
+          width: 40vw;
+          border-radius: 50%;
+        }
+      }
+      .Text {
+        padding: 1rem;
+        width: 85vw;
+        text-align: justify;
+        font-size: 17px;
+      }
+      h2 {
+        margin-top: 10px;
+      }
+      p {
+        text-align: justify;
+      }
+      .MoreInfo {
+        margin-top: 10px;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}

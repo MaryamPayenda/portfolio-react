@@ -27,7 +27,7 @@ body {
 .Home .Container .TextField {
   font-size: 28px;
   color: white;
-  font-family: sans-serif;
+  font-family: Helvetica, sans-serif;
   float: left;
   width: 10rem;
   font-weight: bold;
@@ -76,5 +76,37 @@ body {
   }
   to {
     width: 27.9ch;
+  }
+}
+// ipad
+
+@media (max-width: 768px) {
+  .Home {
+    height: 82vh;
+  }
+}
+
+// mobile view
+
+@media (max-width: 414px) {
+  .Home {
+    height: 86vh;
+
+    .Container {
+      .TextTitle {
+        font-size: 20px;
+        margin-top: 15rem;
+      }
+      .TextName {
+        font-size: 30px;
+      }
+      .TextField {
+        font-size: 20px;
+        margin-left: 3rem;
+      }
+      .Crow {
+        font-size: 20px;
+      }
+    }
   }
 }
