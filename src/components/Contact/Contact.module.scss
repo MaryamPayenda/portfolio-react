@@ -12,7 +12,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   height: 80vh;
   width: 57vw;
   color: white;
@@ -86,82 +85,285 @@
       }
     }
   }
+
+  .FormInfo {
+    background-color: black;
+    border-radius: 10px;
+    width: 37vw;
+    padding: 1.7rem;
+    .PartOne {
+      display: flex;
+      justify-content: space-between;
+      label {
+        font-size: 15px;
+      }
+      input {
+        width: 20rem;
+        background: transparent;
+        border: 1px #353535 solid;
+        border-radius: 5px;
+        height: 2rem;
+        margin-top: 5px;
+        &::placeholder {
+          padding: 10px;
+        }
+      }
+    }
+    .PartTwo {
+      margin-top: 20px;
+      label {
+        font-size: 15px;
+      }
+      input {
+        background: transparent;
+        border: 1px #353535 solid;
+        border-radius: 5px;
+        height: 2rem;
+        width: 41rem;
+        margin-top: 5px;
+        &::placeholder {
+          padding: 10px;
+        }
+      }
+    }
+    .PartThree {
+      margin-top: 20px;
+      label {
+        font-size: 15px;
+      }
+      textarea {
+        background: transparent;
+        border: 1px #353535 solid;
+        border-radius: 5px;
+        height: 10rem;
+        width: 41rem;
+        margin-top: 5px;
+        &::placeholder {
+          padding: 10px;
+        }
+      }
+    }
+    .PartFour {
+      margin-top: 10px;
+      input {
+        color: white;
+        background-color: purple;
+        height: 45px;
+        line-height: 45px;
+        padding: 0 30px;
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: 600;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        &:hover {
+          background-color: #222121;
+          border: purple 1px solid;
+        }
+      }
+    }
+  }
+}
+// ipad view
+@media (max-width: 768px) {
+  .MainContainer {
+    width: 100vw;
+    height: 100vh;
+    .Container {
+      justify-content: start;
+      height: 100vh;
+      width: 90vw;
+      .Header {
+        margin-bottom: 1rem;
+
+        h1 {
+          font-size: 2.5rem;
+          width: 20rem;
+          border-radius: 20px;
+          margin-bottom: 1rem;
+          margin-top: 10px;
+        }
+        p {
+          font-size: 17px;
+        }
+      }
+    }
+    .Info {
+      border-radius: 20px;
+      width: 70vw;
+      height: 28rem;
+      flex-direction: column;
+
+      .EmailInfo {
+        width: 70vw;
+        height: 35vh;
+        padding: 30px;
+
+        .MoreInfo {
+          margin-top: 10px;
+        }
+      }
+    }
+
+    .FormInfo {
+      margin-top: 10px;
+
+      width: 70vw;
+      .PartOne {
+        label {
+          font-size: 15px;
+        }
+        input {
+          width: 15rem;
+          height: 1.5rem;
+          margin-top: 5px;
+          &::placeholder {
+            padding: 5px;
+          }
+        }
+      }
+      .PartTwo {
+        margin-top: 20px;
+        label {
+          font-size: 15px;
+        }
+        input {
+          height: 1.5rem;
+          width: 30.2rem;
+          margin-top: 5px;
+          &::placeholder {
+            padding: 5px;
+          }
+        }
+      }
+      .PartThree {
+        margin-top: 20px;
+        label {
+          font-size: 15px;
+        }
+        textarea {
+          height: 10rem;
+          width: 30.2rem;
+          margin-top: 5px;
+          &::placeholder {
+            padding: 10px;
+          }
+        }
+      }
+      .PartFour {
+        margin-top: 10px;
+      }
+    }
+  }
 }
 
-.FormInfo {
-  background-color: black;
-  border-radius: 10px;
-  width: 37vw;
-  padding: 1.7rem;
-  .PartOne {
-    display: flex;
-    justify-content: space-between;
-    label {
-      font-size: 15px;
-    }
-    input {
-      width: 20rem;
-      background: transparent;
-      border: 1px #353535 solid;
-      border-radius: 5px;
-      height: 2rem;
-      margin-top: 5px;
-      &::placeholder {
-        padding: 10px;
+// mobile view
+@media (max-width: 414px) {
+  .MainContainer {
+    width: 100vw;
+    height: 100vh;
+    .Container {
+      justify-content: start;
+      height: 100vh;
+      width: 90vw;
+      .Header {
+        margin-bottom: 1rem;
+
+        h1 {
+          font-size: 2.5rem;
+          width: 20rem;
+          border-radius: 20px;
+          margin-bottom: 1rem;
+          margin-top: 10px;
+        }
+        p {
+          font-size: 17px;
+        }
       }
     }
-  }
-  .PartTwo {
-    margin-top: 20px;
-    label {
-      font-size: 15px;
-    }
-    input {
-      background: transparent;
-      border: 1px #353535 solid;
-      border-radius: 5px;
-      height: 2rem;
-      width: 41rem;
-      margin-top: 5px;
-      &::placeholder {
-        padding: 10px;
+    .Info {
+      border-radius: 20px;
+      width: 80vw;
+      height: 80vh;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .EmailInfo {
+        background-color: transparent;
+
+        width: 80vw;
+        height: 50vh;
+        padding: 25px;
+
+        .MoreInfo {
+          margin-top: 10px;
+        }
       }
     }
-  }
-  .PartThree {
-    margin-top: 20px;
-    label {
-      font-size: 15px;
-    }
-    textarea {
-      background: transparent;
-      border: 1px #353535 solid;
-      border-radius: 5px;
-      height: 10rem;
-      width: 41rem;
-      margin-top: 5px;
-      &::placeholder {
-        padding: 10px;
+
+    .FormInfo {
+      background-color: transparent;
+
+      padding: 30px;
+      width: 80vw;
+      height: 59vh;
+      .PartOne {
+        flex-direction: column;
+
+        label {
+          font-size: 15px;
+          margin-top: 10px;
+        }
+        input {
+          margin-top: 100px;
+
+          width: 17rem;
+          height: 1.5rem;
+          margin-top: 2px;
+          margin-bottom: 10px;
+          &::placeholder {
+            padding: 5px;
+          }
+        }
       }
-    }
-  }
-  .PartFour {
-    margin-top: 10px;
-    input {
-      color: white;
-      background-color: purple;
-      height: 45px;
-      line-height: 45px;
-      padding: 0 30px;
-      font-size: 13px;
-      text-transform: uppercase;
-      font-weight: 600;
-      border: none;
-      border-radius: 3px;
-      cursor: pointer;
-      &:hover {
-        background-color: #222121;
-        border: purple 1px solid;
+      .PartTwo {
+        margin-top: 10px;
+        label {
+          font-size: 15px;
+        }
+        input {
+          height: 1.5rem;
+          width: 17rem;
+          margin-top: 5px;
+          &::placeholder {
+            padding: 5px;
+          }
+        }
+      }
+      .PartThree {
+        margin-top: 20px;
+        label {
+          font-size: 15px;
+        }
+        textarea {
+          height: 8rem;
+          width: 17rem;
+          margin-top: 5px;
+          &::placeholder {
+            padding: 5px;
+          }
+        }
+      }
+      .PartFour {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        input {
+          height: 35px;
+          line-height: 40px;
+          padding: 0 20px;
+          font-size: 12px;
+        }
       }
     }
   }

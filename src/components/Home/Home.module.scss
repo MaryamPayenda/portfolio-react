@@ -5,52 +5,53 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: row-reverse;
-  height: 90vh;
+  height: 89vh;
+  width: 100vw;
   font-family: Helvetica, sans-serif;
   color: white;
   text-align: center;
+
+  .Container {
+    .TextTitle {
+      font-size: 27px;
+      margin-top: 18rem;
+    }
+    .TextName {
+      font-size: 60px;
+      font-weight: 600;
+      animation: TextName 3s 1;
+      letter-spacing: 8px;
+      margin: 20px;
+    }
+  }
+  .TextField {
+    font-weight: bold;
+    animation: typing 5s steps(22) 1s infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    float: left;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    font-size: 28px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    width: 10rem;
+    font-weight: bold;
+
+    span {
+      color: purple;
+    }
+  }
+  .Crow {
+    float: left;
+    color: white;
+    font-size: 30px;
+    animation: crow 0.5s linear 0s infinite;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
 }
 
-.Home .Container .TextTitle {
-  font-size: 27px;
-  margin-top: 18rem;
-}
-
-.Home .Container .TextName {
-  font-size: 60px;
-  font-weight: 600;
-  animation: TextName 3s 1;
-  letter-spacing: 8px;
-  margin: 20px;
-}
-
-.Home .Container .TextField {
-  font-size: 28px;
-  color: white;
-  font-family: Helvetica, sans-serif;
-  float: left;
-  width: 10rem;
-  font-weight: bold;
-  white-space: nowrap;
-  animation: typing 5s steps(22) 1s infinite alternate;
-  overflow: hidden;
-  margin-top: 1rem;
-  margin-left: 5rem;
-}
-
-.Home .Container .TextField span {
-  color: purple;
-  font-weight: bold;
-}
-
-.Home .Container .Crow {
-  float: left;
-  color: white;
-  font-size: 30px;
-  animation: crow 0.5s linear 0s infinite;
-  font-weight: bold;
-  margin-top: 1rem;
-}
 /* @keyframes TextName {
   0% {
     color: black;
@@ -75,10 +76,10 @@ body {
     width: 0ch;
   }
   to {
-    width: 27.9ch;
+    width: 22.5ch;
   }
 }
-// ipad
+// ipad view
 
 @media (max-width: 768px) {
   .Home {
@@ -91,6 +92,7 @@ body {
 @media (max-width: 414px) {
   .Home {
     height: 86vh;
+    width: 100vw;
 
     .Container {
       .TextTitle {

@@ -9,57 +9,55 @@
   color: white;
   width: 100%;
   height: 60px;
-  /* position: fixed; */
+  // position: fixed;
   z-index: 999;
   opacity: 0.9;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  font-family: sans-serif;
-}
-.NavBar .logo a {
-  color: white;
-  font-size: 25px;
-  font-weight: bold;
-  text-decoration: none;
-  margin-right: 50rem;
-}
-.NavBar .logo a span {
-  color: purple;
-  font-size: 30px;
-}
-
-.NavBar nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  margin-right: 10rem;
-}
-
-.NavBar nav ul li {
-  list-style-type: none;
-  margin: 20px;
-}
-.NavBar nav ul li a {
-  text-decoration: none;
-  color: white;
-}
-.NavBar a:hover {
-  border-bottom: 1px white solid;
-}
-
-.NavBar {
+  .logo {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 40rem;
+    span {
+      color: purple;
+      font-size: 35px;
+    }
+  }
+  nav {
+    ul {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      margin-right: 10rem;
+      li {
+        list-style-type: none;
+        margin: 20px;
+        a {
+          text-decoration: none;
+          color: white;
+          &:hover {
+            border-bottom: 1px white solid;
+          }
+        }
+      }
+    }
+  }
   .MobileNavigation {
     display: none;
   }
 }
+
 // ipad
 @media (max-width: 768px) {
   .NavBar {
     opacity: 1;
-    &:hover {
-      color: #8c1cd1;
+    z-index: 999;
+    .logo {
+      margin-right: 40rem;
     }
 
     .Navigation {
@@ -93,13 +91,15 @@
     }
   }
 }
-
 // mobile view
 
 @media (max-width: 414px) {
   .NavBar {
     opacity: 1;
     z-index: 999;
+    .logo {
+      margin-right: 20rem;
+    }
     .Navigation {
       display: none;
     }

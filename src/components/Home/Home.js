@@ -11,8 +11,8 @@ const Home = () => {
           <div class={classes.TextName}>Maryam Payenda</div>
 
           <div class={classes.TextField}>
-            Junior fullstack
-            <span> Web developer</span>
+            Fullstack
+            <span> Web Developer</span>
           </div>
           <div className={classes.Crow}>|</div>
         </div>

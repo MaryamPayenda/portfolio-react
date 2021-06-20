@@ -36,88 +36,84 @@ const Skills = () => {
             <div className={classes.Technologies}>
               <h2>Operating Systems</h2>
 
-              <div>
-                <img src={windows} alt="hi" />
+              <div className={classes.ToolkitsDivs}>
+                <img src={windows} alt="Windows" />
                 <span>Windows</span>
               </div>
-              <div>
-                <img src={ubuntu} alt="" />
-                <span> Linux/ Ubuntu</span>
+              <div className={classes.ToolkitsDivs}>
+                <img src={ubuntu} alt="Ubuntu" />
+                <span> Linux</span>
               </div>
             </div>
+
             <div className={classes.Technologies}>
               <h2>Programming</h2>
 
-              <div>
-                <img src={html} alt="" />
+              <div className={classes.ToolkitsDivs}>
+                <img src={html} alt="HTML5" />
                 <span>html5</span>{" "}
               </div>
 
-              <div>
-                <img src={js} alt="" />
+              <div className={classes.ToolkitsDivs}>
+                <img src={js} alt="Javascript" />
                 <span>Javasript</span>{" "}
               </div>
 
-              <div>
-                <img src={css} alt="" />
+              <div className={classes.ToolkitsDivs}>
+                <img src={css} alt="CSS" />
                 <span>CSS</span>{" "}
               </div>
 
-              <div>
-                <img src={scss} alt="" />
+              <div className={classes.ToolkitsDivs}>
+                <img src={scss} alt="SCSS" />
                 <span>SCSS</span>
               </div>
 
-              <div>
-                <img src={csharp} alt="" />
+              <div className={classes.ToolkitsDivs}>
+                <img src={csharp} alt="C#" />
                 <span>C#</span>{" "}
               </div>
 
-              <div>
-                <img src={react} alt="" />
+              <div className={classes.ToolkitsDivs}>
+                <img src={react} alt="Reactjs" />
                 <span>React.js</span>{" "}
               </div>
 
-              <div>
-                <img src={node} alt="" />
+              <div className={classes.ToolkitsDivs}>
+                <img src={node} alt="Nodejs" />
                 <span>Node.js</span>
               </div>
 
-              <div>
-                <img src={sqlServer} alt="" />
+              <div className={classes.ToolkitsDivs}>
+                <img src={sqlServer} alt="SQl Server" />
                 <span>SQLserver</span>
               </div>
 
-              <div>
+              <div className={classes.ToolkitsDivs}>
                 <img src={sql} alt="" />
                 <span>MY SQL</span>{" "}
               </div>
             </div>
             <div className={classes.Technologies}>
               <h2>Other</h2>
-
-              <div>
+              <div className={classes.ToolkitsDivs}>
                 <img src={office} alt="ms Office" />
                 <span>M.S Office</span>{" "}
               </div>
-
-              <div>
-                <img src={code} alt="" />
+              <div className={classes.ToolkitsDivs}>
+                <img src={code} alt="MS Code" />
                 <span>M.S Code</span>{" "}
               </div>
-
-              <div>
-                <img src={github} alt="" />
+              <div className={classes.ToolkitsDivs}>
+                <img src={github} alt="Github" />
                 <span>Github</span>{" "}
               </div>
-
-              <div>
-                <img src={slack} alt="" />
+              <div className={classes.ToolkitsDivs}>
+                <img src={slack} alt="Slack" />
                 <span>Slack</span>{" "}
               </div>
-
-              <div>
-                <img src={git} alt="" />
+              <div className={classes.ToolkitsDivs}>
+                <img src={git} alt="Git" />
                 <span>Git</span>{" "}
               </div>
             </div>

@@ -39,85 +39,21 @@
       }
     }
   }
-}
 
-.Info {
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  width: 80vw;
-  height: 60vh;
-  justify-content: space-around;
-
-  .Technologies {
-    background-color: black;
-    border-radius: 5px;
-    width: 24vw;
-    height: 55vh;
-    margin-top: 10px;
-    h2 {
-      margin-top: 2rem;
-      text-align: center;
-      font-weight: bold;
-    }
-    div {
-      margin-top: 10px;
-
-      font-size: 20px;
-      margin-left: 2rem;
-    }
-    img {
-      height: 2.5rem;
-      width: 2.5rem;
-      border-radius: 50px;
-      vertical-align: middle;
-    }
-    span {
-      margin-left: 20px;
-    }
-  }
-}
-
-// Responsive ipad view
-@media (max-width: 768px) {
-  .MainContainer {
-    width: 100vw;
-    height: 90vh;
-
-    .Container {
-      width: 80vw;
-      height: 80vh;
-      border: 1px red solid;
-      .Header {
-        margin-bottom: 1rem;
-        margin-top: 1rem;
-
-        h1 {
-          font-size: 2rem;
-          border-bottom: 1px solid gray;
-          width: 13rem;
-          // border-radius: 20px;
-          margin-bottom: 1rem;
-        }
-        p {
-          width: 90vw;
-        }
-      }
-    }
-  }
   .Info {
-    border-radius: 10px;
+    border-radius: 20px;
     display: flex;
-    // align-items: center;
+    align-items: center;
     width: 80vw;
-    height: 100vh;
-    justify-content: space-between;
-    flex-direction: column;
+    height: 60vh;
+    justify-content: space-around;
+
     .Technologies {
       background-color: black;
       border-radius: 5px;
-      width: 64vw;
-      // height: 55vh;
+      width: 24vw;
+      height: 55vh;
+      margin-top: 10px;
       h2 {
         margin-top: 2rem;
         text-align: center;
@@ -137,6 +73,79 @@
       }
       span {
         margin-left: 20px;
+      }
+    }
+  }
+}
+
+// Responsive ipad view
+@media (max-width: 768px) {
+  .MainContainer {
+    .Info {
+      width: 90vw;
+      .Technologies {
+        width: 28vw;
+      }
+    }
+  }
+}
+
+// mobile view
+@media (max-width: 414px) {
+  .MainContainer {
+    margin: 0;
+    padding: 0;
+    .Container {
+      width: 100%;
+
+      .Header {
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 15px;
+        width: 40rem;
+        margin-top: 2rem;
+
+        h1 {
+          font-size: 2rem;
+          width: 13rem;
+          margin-bottom: 1rem;
+        }
+        p {
+          width: 25rem;
+        }
+      }
+      .Info {
+        flex-direction: column;
+        margin-top: 8rem;
+        .Technologies {
+          background-color: black;
+          border-radius: 5px;
+          width: 80vw;
+          height: 55vh;
+          margin-top: 5px;
+          padding-bottom: 10px;
+          h2 {
+            margin-top: 1rem;
+            text-align: center;
+            font-weight: 100;
+            font-size: 20px;
+          }
+          div {
+            margin-top: 10px;
+
+            font-size: 15px;
+            margin-left: 2rem;
+          }
+          img {
+            height: 1.5rem;
+            width: 1.5rem;
+            border-radius: 50px;
+            vertical-align: middle;
+          }
+          span {
+            margin-left: 10px;
+          }
+        }
       }
     }
   }

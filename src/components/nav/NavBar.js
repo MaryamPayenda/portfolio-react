@@ -7,9 +7,7 @@ const NavBar = () => {
   return (
     <div className={classes.NavBar}>
       <div className={classes.logo}>
-        <a href="#">
-          m<span>P.</span>
-        </a>
+        m<span>P.</span>
       </div>
       <Navigation />
       <MobileNavigation />
