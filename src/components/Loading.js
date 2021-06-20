@@ -8,6 +8,7 @@ const Loading = () => {
         justifyContent: "center",
         alignItems: "center",
         height: "100vh",
+        color: "white",
       }}
     >
       <h3>Loading ...</h3>
