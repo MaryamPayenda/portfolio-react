@@ -12,7 +12,7 @@ const Project = ({}) => {
           className={classes.Photo}
           alt={obj.title}
         />
-        <a href={obj.link}>
+        <a href={obj.link} target="_blank">
           <div className={classes.Overlay}>
             <div>{obj.project}</div>
 
