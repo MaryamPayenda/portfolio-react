@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Footer.module.scss";
-import { FaGithub, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaEnvelopeSquare } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -23,8 +23,8 @@ const Footer = () => {
             </li>
 
             <li>
-              <a href="https://www.instagram.com/_mm.payenda/" target="_blank">
-                <FaInstagram className={classes.fa} />
+              <a href="mailto: maryampayanda12.com" target="_blank">
+                <FaEnvelopeSquare className={classes.fa} />
               </a>
             </li>
           </ul>

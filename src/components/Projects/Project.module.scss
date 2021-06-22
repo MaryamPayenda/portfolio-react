@@ -90,6 +90,7 @@
     height: 100vh;
     .Gallery {
       width: 700px;
+      z-index: 0;
     }
     align-items: flex-start;
   }

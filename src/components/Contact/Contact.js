@@ -74,9 +74,8 @@ const Contact = () => {
             <div className={classes.EmailInfo}>
               <h4>Get In Touch</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis,
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis,
-                sapiente.
+                If you want my work, why not call on me for your next project? I
+                could send you a quotation and more details about my workflow..
               </p>
               <div className={classes.MoreInfo}>
                 <FaMapMarker className={classes.icon} />

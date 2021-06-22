@@ -97,7 +97,7 @@ const Skills = () => {
                   src={`${process.env.PUBLIC_URL}/img/sqlServer.png`}
                   alt="SQl Server"
                 />
-                <span>SQLserver</span>
+                <span>Bootstrap</span>
               </div>
 
               <div className={classes.ToolkitsDivs}>
