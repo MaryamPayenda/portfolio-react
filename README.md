@@ -1,5 +1,5 @@
 # Porfolio using React.js
-![porfolio-home](https://user-images.githubusercontent.com/20128950/122910269-4bf61a00-d356-11eb-8aed-10c1966a3486.png)
-![portfolio-projects](https://user-images.githubusercontent.com/20128950/122910659-bdce6380-d356-11eb-9c57-db154fdddb92.png)
+![portfolio](https://user-images.githubusercontent.com/20128950/122912745-f40ce280-d358-11eb-9889-90af7f5e3c9b.png)
+
 
 
