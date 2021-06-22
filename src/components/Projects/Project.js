@@ -12,11 +12,13 @@ const Project = ({}) => {
           className={classes.Photo}
           alt={obj.title}
         />
-        <div className={classes.Overlay}>
-          <div>{obj.project}</div>
+        <a href={obj.link}>
+          <div className={classes.Overlay}>
+            <div>{obj.project}</div>
 
-          <p>{obj.title} </p>
-        </div>
+            <p>{obj.title} </p>
+          </div>
+        </a>
       </li>
     ));
   } else galeryData = <div />;

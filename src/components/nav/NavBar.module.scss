@@ -55,7 +55,7 @@
 @media (max-width: 768px) {
   .NavBar {
     opacity: 1;
-    z-index: 999;
+    z-index: 1;
     .logo {
       margin-right: 40rem;
     }
@@ -71,6 +71,8 @@
       position: absolute;
       right: 5%;
       cursor: pointer;
+      width: 1.2rem;
+      height: 1.2rem;
     }
     nav {
       ul {

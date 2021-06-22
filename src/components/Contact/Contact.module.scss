@@ -25,12 +25,14 @@
     font-size: 17px;
 
     h1 {
+      color: white;
+
       font-weight: bold;
       font-family: sans-serif;
       text-align: center;
-      font-size: 3rem;
+      font-size: 2.5rem;
       border-bottom: 1px solid gray;
-      width: 23rem;
+      width: 20rem;
       border-radius: 20px;
       margin-bottom: 2rem;
     }
@@ -46,8 +48,8 @@
 .Info {
   border-radius: 20px;
   display: flex;
-  width: 60vw;
-  height: 28rem;
+  width: 63vw;
+  height: 30rem;
   justify-content: space-between;
 
   .EmailInfo {
@@ -89,11 +91,13 @@
   .FormInfo {
     background-color: black;
     border-radius: 10px;
-    width: 37vw;
-    padding: 1.7rem;
+    width: 38vw;
+    padding: 1.8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     .PartOne {
       display: flex;
-      justify-content: space-between;
       label {
         font-size: 15px;
       }
@@ -104,9 +108,17 @@
         border-radius: 5px;
         height: 2rem;
         margin-top: 5px;
+        color: white;
+        padding: 10px;
+        margin-right: 10px;
         &::placeholder {
-          padding: 10px;
+          padding: 3px;
         }
+      }
+      .Error {
+        margin-left: 10px;
+        color: gray;
+        font-size: 15px;
       }
     }
     .PartTwo {
@@ -121,9 +133,16 @@
         height: 2rem;
         width: 41rem;
         margin-top: 5px;
+        color: white;
+        padding: 10px;
         &::placeholder {
-          padding: 10px;
+          padding: 3px;
         }
+      }
+      .Error {
+        margin-left: 10px;
+        color: gray;
+        font-size: 15px;
       }
     }
     .PartThree {
@@ -138,20 +157,28 @@
         height: 10rem;
         width: 41rem;
         margin-top: 5px;
+        color: white;
+        padding: 10px;
+
         &::placeholder {
-          padding: 10px;
+          padding: 3px;
         }
+      }
+      .Error {
+        margin-left: 10px;
+        color: gray;
+        font-size: 15px;
       }
     }
     .PartFour {
       margin-top: 10px;
-      input {
+      button {
         color: white;
         background-color: purple;
         height: 45px;
         line-height: 45px;
         padding: 0 30px;
-        font-size: 13px;
+        font-size: 15px;
         text-transform: uppercase;
         font-weight: 600;
         border: none;
@@ -163,8 +190,15 @@
         }
       }
     }
+    .SuccessMessage {
+      font-family: "Roboto", sans-serif;
+      // background-color: #3f89f8;
+      padding: 15px;
+      color: white;
+    }
   }
 }
+
 // ipad view
 @media (max-width: 768px) {
   .MainContainer {
@@ -288,6 +322,7 @@
       height: 80vh;
       flex-direction: column;
       justify-content: space-between;
+      color: white;
 
       .EmailInfo {
         background-color: transparent;
@@ -304,7 +339,6 @@
 
     .FormInfo {
       background-color: transparent;
-
       padding: 30px;
       width: 80vw;
       height: 59vh;

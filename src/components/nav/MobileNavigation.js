@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import NavLinks from "./NavLinks";
 import classes from "./NavBar.module.scss";
-import { CgMenuRound } from "react-icons/cg";
-import { CgCloseO } from "react-icons/cg";
+// import { CgMenuRound } from "react-icons/cg";
+// import { CgCloseO } from "react-icons/cg";
+import { FaTimes, FaBars } from "react-icons/fa";
 
 const MobileNavigation = () => {
   const [open, setOpen] = useState(false);
 
   const hamburgerIcon = (
-    <CgMenuRound
+    <FaBars
       className={classes.Humberger}
       size="40px"
       color="white"
@@ -17,7 +18,7 @@ const MobileNavigation = () => {
   );
 
   const closeIcon = (
-    <CgCloseO
+    <FaTimes
       className={classes.Humberger}
       size="40px"
       color="white"

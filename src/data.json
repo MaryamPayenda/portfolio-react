@@ -3,36 +3,42 @@
     "id": 0,
     "img": "./img/IMDb.png",
     "title": "Using React",
-    "project": "IMDb  clone"
+    "project": "IMDb  clone",
+    "link": "https://tmbd-movie-library.netlify.app/"
   },
   {
     "id": 1,
     "img": "./img/instagram.png",
     "title": "Using React",
-    "project": "Instagram Page clone"
+    "project": "Instagram Page clone",
+    "link": "https://maryampayenda.github.io/instagram/"
   },
   {
     "id": 3,
     "img": "./img/to-do.png",
     "title": "Using React",
-    "project": "Simple todo"
+    "project": "Simple todo",
+    "link": "https://maryampayenda.github.io/react-to-do/"
   },
   {
     "id": 4,
     "img": "./img/youtube-clone-sass.png",
     "title": "Using Sass",
-    "project": "Youtube  clone"
+    "project": "Youtube  clone",
+    "link": "https://maryampayenda.github.io/youTubeCloneScss/"
   },
   {
     "id": 5,
-    "img": "./img/instagram.png",
+    "img": "./img/OnlineShop.png",
     "title": "Using React",
-    "project": "Instagram Page clone"
+    "project": "Simple Online Shop",
+    "link": "https://github.com/MaryamPayenda/online-shop"
   },
   {
     "id": 1,
-    "img": "./img/instagram.png",
+    "img": "./img/morse.png",
     "title": "Using React",
-    "project": "Instagram Page clone"
+    "project": "Morse Gernerator",
+    "link": "https://maryampayenda.github.io/morse-generator/"
   }
 ]

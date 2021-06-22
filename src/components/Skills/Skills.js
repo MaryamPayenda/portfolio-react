@@ -1,21 +1,5 @@
 import React from "react";
 import classes from "./Skills.module.scss";
-import windows from "../../img1/windows.png";
-import ubuntu from "../../img1/ubuntu.jpeg";
-import html from "../../img1/html5.png";
-import js from "../../img1/js.png";
-import css from "../../img1/css3.png";
-import scss from "../../img1/sass.png";
-import csharp from "../../img1/csharp.jpeg";
-import react from "../../img1/react.png";
-import node from "../../img1/node.png";
-import sqlServer from "../../img1/sqlserver.png";
-import sql from "../../img1/mysql.png";
-import office from "../../img1/msOffice.jpeg";
-import code from "../../img1/msCode.jpeg";
-import github from "../../img1/github.png";
-import slack from "../../img1/slack.png";
-import git from "../../img1/git.png";
 
 const Skills = () => {
   return (
@@ -37,11 +21,17 @@ const Skills = () => {
               <h2>Operating Systems</h2>
 
               <div className={classes.ToolkitsDivs}>
-                <img src={windows} alt="Windows" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/img/windows.png`}
+                  alt="Windows"
+                />
                 <span>Windows</span>
               </div>
               <div className={classes.ToolkitsDivs}>
-                <img src={ubuntu} alt="Ubuntu" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/img/ubuntu.jpeg`}
+                  alt="Ubuntu"
+                />
                 <span> Linux</span>
               </div>
             </div>
@@ -50,70 +40,103 @@ const Skills = () => {
               <h2>Programming</h2>
 
               <div className={classes.ToolkitsDivs}>
-                <img src={html} alt="HTML5" />
-                <span>html5</span>{" "}
+                <img
+                  src={`${process.env.PUBLIC_URL}/img/html5.png`}
+                  alt="something"
+                />
+                <span>html5</span>
               </div>
 
               <div className={classes.ToolkitsDivs}>
-                <img src={js} alt="Javascript" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/img/js.png`}
+                  alt="Javascript"
+                />
                 <span>Javasript</span>{" "}
               </div>
 
               <div className={classes.ToolkitsDivs}>
-                <img src={css} alt="CSS" />
+                <img src={`${process.env.PUBLIC_URL}/img/css3.png`} alt="CSS" />
                 <span>CSS</span>{" "}
               </div>
 
               <div className={classes.ToolkitsDivs}>
-                <img src={scss} alt="SCSS" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/img/sass.png`}
+                  alt="SCSS"
+                />
                 <span>SCSS</span>
               </div>
 
               <div className={classes.ToolkitsDivs}>
-                <img src={csharp} alt="C#" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/img/csharp.jpeg`}
+                  alt="C#"
+                />
                 <span>C#</span>{" "}
               </div>
 
               <div className={classes.ToolkitsDivs}>
-                <img src={react} alt="Reactjs" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/img/react.png`}
+                  alt="Reactjs"
+                />
                 <span>React.js</span>{" "}
               </div>
 
               <div className={classes.ToolkitsDivs}>
-                <img src={node} alt="Nodejs" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/img/node.png`}
+                  alt="Nodejs"
+                />
                 <span>Node.js</span>
               </div>
 
               <div className={classes.ToolkitsDivs}>
-                <img src={sqlServer} alt="SQl Server" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/img/sqlServer.png`}
+                  alt="SQl Server"
+                />
                 <span>SQLserver</span>
               </div>
 
               <div className={classes.ToolkitsDivs}>
-                <img src={sql} alt="" />
+                <img src={`${process.env.PUBLIC_URL}/img/mysql.png`} alt="" />
                 <span>MY SQL</span>{" "}
               </div>
             </div>
             <div className={classes.Technologies}>
               <h2>Other</h2>
               <div className={classes.ToolkitsDivs}>
-                <img src={office} alt="ms Office" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/img/msOffice.jpeg`}
+                  alt="ms Office"
+                />
                 <span>M.S Office</span>{" "}
               </div>
               <div className={classes.ToolkitsDivs}>
-                <img src={code} alt="MS Code" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/img/msCode.jpeg`}
+                  alt="MS Code"
+                />
                 <span>M.S Code</span>{" "}
               </div>
               <div className={classes.ToolkitsDivs}>
-                <img src={github} alt="Github" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/img/github.png`}
+                  alt="Github"
+                />
                 <span>Github</span>{" "}
               </div>
               <div className={classes.ToolkitsDivs}>
-                <img src={slack} alt="Slack" />
+                <img
+                  src={`${process.env.PUBLIC_URL}/img/slack.png`}
+                  alt="Slack"
+                />
                 <span>Slack</span>{" "}
               </div>
               <div className={classes.ToolkitsDivs}>
-                <img src={git} alt="Git" />
+                <img src={`${process.env.PUBLIC_URL}/img/git.png`} alt="Git" />
                 <span>Git</span>{" "}
               </div>
             </div>
