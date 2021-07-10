@@ -51,7 +51,29 @@
     display: none;
   }
 }
+// media queries
 
+@media (max-width: 1423px) {
+  .NavBar {
+    .logo {
+      margin-right: 30rem;
+    }
+  }
+}
+@media (max-width: 1167px) {
+  .NavBar {
+    .logo {
+      margin-right: 10rem;
+    }
+  }
+}
+@media (max-width: 881px) {
+  .NavBar {
+    .logo {
+      margin-right: 4rem;
+    }
+  }
+}
 // ipad
 @media (max-width: 768px) {
   .NavBar {
