@@ -83,10 +83,52 @@ body {
 // media quries
 @media (max-width: 1423px) {
   .Home {
-    height: 86vh;
-    width: 100vw;
+    height: 85vh;
+    // width: 100vw;
+    .Container{
+      .TextTitle {
+        font-size: 1.53rem;
+        margin-top: 12rem;
+      }
+      .TextName {
+        font-size: 3rem;
+        font-weight: bold;
+        animation: TextName 3s 1;
+        letter-spacing: 8px;
+        margin: 1.25rem;
+      }
+    }
+    .TextField {
+      font-weight: bold;
+      animation: typing 5s steps(22) 1s infinite alternate;
+      white-space: nowrap;
+      overflow: hidden;
+      float: left;
+      margin-top: 1rem;
+      margin-left: 5rem;
+      font-size: 1.75rem;
+      color: white;
+      font-family: Helvetica, sans-serif;
+      width: 10rem;
+      font-weight: bold;
+  
+      span {
+        color: purple;
+      }
+    }
+    .Crow {
+      float: left;
+      color: white;
+      font-size: 1.87rem;
+      animation: crow 0.5s linear 0s infinite;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+  
+
+    }
   }
-}
+
 // ipad view
 
 @media (max-width: 768px) {
