@@ -198,6 +198,20 @@
     }
   }
 }
+// media queries 
+@media (max-width: 1423px) {
+
+  .Info{
+    width: 81vw;
+    height: 32rem;
+.EmailInfo{
+  width:27vw ;
+}
+.FormInfo{
+width: 52vw;
+}
+  }
+}
 
 // ipad view
 @media (max-width: 768px) {

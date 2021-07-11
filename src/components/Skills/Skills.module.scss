@@ -78,7 +78,42 @@
     }
   }
 }
+// media queries
+@media (max-width: 1423px) {
+  .MainContainer{
+    .Container{
+      .Header{
+        margin-bottom: 1rem;
+        h1{
+          font-size: 2rem;
+          width: 15rem;
+          margin-bottom: 10px;
+        }
+       
+      }
 
+    }
+    .Info{
+     
+    .Technologies {
+     
+      height: 60vh;
+      margin-top: 10px;
+      h2 {
+        margin-top: 1rem;
+        font-size: 1rem;
+      }
+      
+      img {
+        height: 1.8rem;
+        width: 1.8rem;
+      
+      }
+     
+    }
+    }
+  }
+}
 // Responsive ipad view
 @media (max-width: 768px) {
   .MainContainer {

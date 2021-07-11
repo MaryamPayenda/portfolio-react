@@ -82,7 +82,19 @@
   height: 260px;
   margin: 10px;
 }
+// media query
+@media (max-width:1423) {
 
+  .Header {
+    height: 100vh;
+    margin-top: 1rem;
+    h2{
+      margin: 10px;
+    }
+  
+
+}
+}
 // ipad view
 @media (max-width: 768px) {
   .Main {
