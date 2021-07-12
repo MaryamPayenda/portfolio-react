@@ -198,21 +198,32 @@
     }
   }
 }
-// media queries 
+// media queries
 @media (max-width: 1423px) {
-
-  .Info{
+  .Info {
     width: 81vw;
     height: 32rem;
-.EmailInfo{
-  width:27vw ;
-}
-.FormInfo{
-width: 52vw;
-}
+    .EmailInfo {
+      width: 27vw;
+    }
+    .FormInfo {
+      width: 52vw;
+    }
   }
 }
 
+@media (max-width: 1167px) {
+  .Info {
+    width: 92vw;
+    height: 32rem;
+    .EmailInfo {
+      width: 31vw;
+    }
+    .FormInfo {
+      width: 59vw;
+    }
+  }
+}
 // ipad view
 @media (max-width: 768px) {
   .MainContainer {
