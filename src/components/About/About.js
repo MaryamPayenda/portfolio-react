@@ -55,7 +55,7 @@ const About = () => {
               </span>
             </div>
             <div>
-              <a href="./img/Letter.docx" className={classes.Button} download>
+              <a href="./img/Letterr.docx" className={classes.Button} download>
                 Download My CV
               </a>
 
