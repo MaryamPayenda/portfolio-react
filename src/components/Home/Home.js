@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import classes from "./Home.module.scss";
 import Footer from "../Footer/Footer";
 
@@ -14,7 +14,7 @@ const Home = () => {
             Fullstack
             <span> Web Developer</span>
           </div>
-          <div className={classes.Crow}>|</div>
+          {/* <div className={classes.Crow}>|</div> */}
         </div>
       </div>
       <Footer />

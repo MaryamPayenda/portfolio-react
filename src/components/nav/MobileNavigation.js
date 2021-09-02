@@ -8,6 +8,9 @@ import { FaTimes, FaBars } from "react-icons/fa";
 const MobileNavigation = () => {
   const [open, setOpen] = useState(false);
 
+  const hideNav = () => {
+    setOpen(!open);
+  };
   const hamburgerIcon = (
     <FaBars
       className={classes.Humberger}
@@ -27,7 +30,7 @@ const MobileNavigation = () => {
   );
 
   return (
-    <nav className={classes.MobileNavigation}>
+    <nav className={classes.MobileNavigation} onClick={hideNav}>
       {open ? closeIcon : hamburgerIcon}
       {open && <NavLinks />}
     </nav>
