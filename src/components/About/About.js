@@ -1,14 +1,10 @@
 import React from "react";
 import classes from "./About.module.scss";
 import { FaCode, FaHandshake } from "react-icons/fa";
-import avatar from "../../img1/avatar.png";
 //import DownloadLink from "react-download-link";
 // import Pdf from "../../img/Letter.docx";
 
 const About = () => {
-  // const openResume = () => {
-  //   window.open({ Pdf });
-  // };
   return (
     <div className={classes.MainContainer}>
       <div className={classes.Container}>
@@ -24,7 +20,10 @@ const About = () => {
 
         <div className={classes.Info}>
           <div className={classes.Image}>
-            <img src={avatar} alt="Avatar" />
+            <img
+              src={`${process.env.PUBLIC_URL}/img/avatar1.png`}
+              alt="Avatar"
+            />
           </div>
           <div className={classes.Text}>
             <h2>I'm Maryam Payenda</h2>
